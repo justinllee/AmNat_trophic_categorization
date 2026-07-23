@@ -1,10 +1,10 @@
-# Trophic niche representation affects macroevolutionary inference 
+# Description 
 
 The follwing is a guide to the supplemental material for the manuscript entitled "Trophic niche representation affects macroevolutionary inference: a case study in elapid snakes", which was accepted in the journal American Naturalist.
 
 
 
-## Files included in Datasets.zip :
+## Files included in Datasets.zip:
 
 - **'All_Elapids_squamatabase_JLL.csv':**
 Dataset containing all 7,890 predator-prey observations of snakes used in study, including dissected stomach contents (noted by "this study" in references tab), and primary literature data. All predator-prey observations are notated in SquamataBase format (see Grundler 2020). Seven additional columns are included that note the diet category schemes used throughout the study, and the subgroup (noted as 'radiation') of each elapid. Explanations of all database fields/columns in the dataset are summarized below (refer to the SquamataBase GitHub page: https://github.com/blueraleigh/squamatabase, for more details):
