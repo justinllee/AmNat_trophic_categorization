@@ -1,4 +1,4 @@
-# Explanation of supplemental material
+# Trophic niche representation affects macroevolutionary inference 
 
 The follwing is a guide to the supplemental material for the manuscript entitled "Trophic niche representation affects macroevolutionary inference: a case study in elapid snakes", which was accepted in the journal American Naturalist.
 
