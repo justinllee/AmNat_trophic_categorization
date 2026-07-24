@@ -1,7 +1,6 @@
 # Description 
 
-The follwing is a guide to the supplemental material for the manuscript entitled "Trophic niche representation affects macroevolutionary inference: a case study in elapid snakes", which was accepted in the journal American Naturalist.
-
+This GitHub repository contains the datasets, supplemental figures and R-scripts of the manuscript entitled "Trophic niche representation affects macroevolutionary inference: a case study in elapid snakes", which was accepted in the journal The American Naturalist.
 
 
 ## Files included in Datasets.zip:
