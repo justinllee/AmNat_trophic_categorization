@@ -1,6 +1,6 @@
 # Description 
 
-This GitHub repository contains the datasets, supplemental figures and R-scripts of the manuscript entitled "Trophic niche representation affects macroevolutionary inference: a case study in elapid snakes", which was accepted in the journal The American Naturalist.
+This GitHub repository contains the datasets, supplemental figures and R-scripts of the manuscript entitled "Trophic niche representation affects macroevolutionary inference: a case study in elapid snakes", which was accepted in the journal The American Naturalist. All data contained in this repository are also available in Dryad under the following link: (https://doi.org/10.5061/dryad.4tmpg4fsf).
 
 
 ## Files included in Datasets.zip:
@@ -141,7 +141,8 @@ Molecular Biology and Evolution 39:msac174. https://doi.org/10.1093/molbev/msac1
 [https://timetree.org/]
 
 Title, P.O., S. Singhal, M.C. Grundler, G.C. Costa, R.A. Pyron, T.J. Colston,, M.R. 
-Grundler, et al. 2024. The macroevolutionary singularity of snakes. Science 383:918–923.
+Grundler, et al. 2024. The macroevolutionary singularity of snakes. Science 383:918–923. 
+https://doi.org/10.1126/science.adh2449.
 [GitHub repository: https://github.com/macroevolution/squamata]
 
 
