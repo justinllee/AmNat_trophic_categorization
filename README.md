@@ -6,13 +6,10 @@ This GitHub repository contains the datasets, supplemental figures and R-scripts
 ## Files included in Datasets.zip:
 
 - **'All_Elapids_squamatabase_JLL.csv':**
-Dataset containing all 7,890 predator-prey observations of snakes used in study, including dissected stomach contents (noted by "this study" in references tab), and primary literature data. All predator-prey observations are notated in SquamataBase format (see Grundler 2020). Seven additional columns are included that note the diet category schemes used throughout the study, and the subgroup (noted as 'radiation') of each elapid. Explanations of all database fields/columns in the dataset are summarized below (refer to the SquamataBase GitHub page: https://github.com/blueraleigh/squamatabase, for more details):
+Dataset containing all 7,890 predator-prey observations of snakes used in study, including dissected stomach contents (noted by "this study" in references tab), and primary literature data. All predator-prey observations are notated in SquamataBase format (see Grundler 2020). Seven additional columns are included that note the diet category schemes used throughout the study, and the subgroup (noted as 'radiation') of each elapid. Explanations of all fields/columns in the dataset are summarized below in the Appendix section (but also refer to the SquamataBase GitHub page: https://github.com/blueraleigh/squamatabase, for more details).
 
 - **'All_Elapids_tree_v2.tre':**
-Modified phylogenetic tree of Elapidae based on the phylogeny of Title et al. (2024) (original tree is included as file 
-
-- **'best_ultrametric_fulltree_ddBD_revision.tre':**
-This tree also includes enhancements made based on robust evidence from recent taxonomic and systematic literature. Details of enhancements are included in the Materials and Methods section of the manuscript text, and code used to enhance the tree are included in the R-script 
+Modified phylogenetic tree of Elapidae based on the phylogeny of Title et al. (2024) (original tree is included as file 'best_ultrametric_fulltree_ddBD_revision.tre'). This tree also includes enhancements made based on robust evidence from recent taxonomic and systematic literature. Details of enhancements are included in the Materials and Methods section of the manuscript text, and code used to enhance the tree are included in the R-script.
 
 - **'Script1_correct_Elapid_tree.R':**
 A full list of species included in the phylogeny can be found in file  'Elapid_taxon_list_intree.csv'. 
@@ -21,11 +18,10 @@ A full list of species included in the phylogeny can be found in file  'Elapid_t
 Raw phylogenetic tree of squamates from Title et al. (2024) (see references section in manuscript text).
 
 - **'Elapid_full_taxon_list.csv':**
-Entire list of elapid snake species included in phylogeny ('All_Elapids_tree_v2.tre') or in the dietary dataset ('All_Elapids_squamatabase.csv'). Original phylogeny from Title et al. (2024) (see references section in manuscript text).
+Entire list of elapid snake species included in phylogeny ('All_Elapids_tree_v2.tre') or in the dietary dataset ('All_Elapids_squamatabase.csv'). Original phylogeny from Title et al. (2024) (see references section). Explanations of all  fields/columns in the dataset are summarized below in the Appendix section.
 
 - **'Elapid_taxon_list_intree.csv':**
-List of all 245 elapid snake species included in the enhanced phylogeny (see file 'All_Elapids_tree_v2.tre') published by Title et al. (2024) (see references section in manuscript text).
-
+List of all 245 elapid snake species included in the enhanced phylogeny (see file 'All_Elapids_tree_v2.tre') published by Title et al. (2024) (see references section). Explanations of all  fields/columns in the dataset are summarized below in the Appendix section.
 
 
 ## R-scripts:
@@ -153,205 +149,115 @@ Grundler, et al. 2024. The macroevolutionary singularity of snakes. Science 383:
 ## Appendix:
 
 #### Database fields used in 'All_Elapids_squamatabase_JLL.csv'
-  - no:
+  - "no": The number of existing diet records in SquamataBase. New diet records are noted as NA.
+  
+  - "predator": Scientific name of predator. Some names have been updated to match the tip labels of the Title et al. (2024) tree, or to match recent taxonomic updates.
+  
+  - "predator_verbatim": Scientific name of predator reported in the original source of the diet record. 
+  
+  - "predator_rank": Linnean rank of predator.
+  
+  - "predator_taxon": Semicolon separated list of taxonomic ranks applicable to predator. 	
+  
+  - "predator_age": Age of predator specimen.
+  
+  - "predator_sex": Sex of predator specimen.
+  
+  - "predator_count": Number of individual predators involved in diet record.
+  
+  - "predator_mass": Mass (in grams) of predator.
+  
+  - "predator_svl": Snout-to-vent length (generally, from snout tip to vent) of predator. All measurements in millimeters.
+  
+  - "predator_tl": Total length (snout-to-vent length + tail length) of predator. All  measurements in millimeters.
+  
+  - "predator_voucher": A museum voucher number or random alphanumeric code applied for each predator specimen. Random alphanumeric codes were not given for new literature diet records reported herein.
+  
+  - "prey": Scientific name of predator. Some names have been updated to match recent taxonomic updates.
+  
+  - "prey_verbatim": Scientific name of prey reported in the original source of the diet record. 
+  
+  - "prey_rank": Linnean rank of prey.
+  
+  - "prey_taxon": Semicolon separated list of taxonomic ranks applicable to prey.
+  
+  - "prey_age": Age of individual prey item.
+  
+  - "prey_sex": Sex of individual prey item.
+  
+  - "prey_count": Number of prey items involved in diet record.
+  
+  - "prey_mass": Mass (in grams) of prey item.
+  
+  - "prey_tl": Total length of prey item. All measurements in millimeters.
+  
+  - "prey_ingested": Direction prey item was ingested (e.g., head first, tail first, bent double).
+  
+  - "prey_voucher": A museum voucher number or random alphanumeric code applied for each prey item. Random alphanumeric codes were not given for new literature diet records reported herein.
+  
+  - "locality_adm0_name": Country where diet record occurred.
+  
+  - "locality_adm1_name": State/provincial level region where diet record occurred.
+  
+  - "locality_adm2_name": County/municipality level region where diet record occurred.
+  
+  - "locality_misc": Additional information relevant to location of diet record.
+  
+  - "locality_longitude": Longitude (in decimal form) of diet record.
+  
+  - "locality_latitude": Latitude (in decimal form) of diet record.
+  
+  - "event_basis": The basis for the diet record (e.g., direct observation, dissected stomach/gut contents, etc.)
+  
+  - "event_setting": Note stating whether the diet record was observed naturally or in a captive setting.
+  
+  - "event_date": The date when the diet record was presumed to have occurred (given in YYYY-MM-DD format). The collection date is given under this field for records derived from dissected stomach contents.
+  
+  - "event_start": The time when the diet record started (in 24-hour HH":MM format).
+  
+  - "event_end": The time when the diet record ended (in 24-hour HH":MM format).
+  
+  - "event_outcome": The outcome of the predation event in the diet record (in most cases, this is prey_eaten, but direct observations based on field encounters may have other outcomes such as predation_interrupted_by_observer)
+  
+  - "event_habitat": Habitat descriptor noting the setting of diet record (e.g., terrestrial, fossorial, arboreal, aquatic)
+  
+  - "event_habitat_verbatim": Verbatim description of habitat for diet record.
+  
+  - "event_remark": Any relevant notes of diet record that do not fall under other database fields.
+  
+  - "reference": The reference/citation of diet record. Novel diet records reported by us are recorded using the entry this study.
+  
+  - "prey_traditional": Dietary categorization of prey item under the traditional [T1] category scheme.
+  
+  - "prey_phylo1": Dietary categorization of prey item under order rank [T2] scheme.
+  
+  - "prey_phylo2": Dietary categorization of prey item under family rank [T3] scheme.
+  
+  - "prey_functional1": Dietary categorization of prey item under functional/ecological [E1] category scheme.
+  
+  - "prey_functional2": Dietary categorization of prey item under the habitat [E2] category scheme.
+  
+  - "prey_type": Dietary categorization of prey item under the Mass-Bulk Theory (MBT) prey type [E3] category scheme.
+  
+  - "radiation": Assigned elapid subgroup of each predator species for diet record.
 
-    The number of existing diet records in SquamataBase. New diet records are noted as NA.
-  
-  - predator:
-  
-    Scientific name of predator. Some names have been updated to match the tip labels of the Title et al. (2024) tree, or to match recent taxonomic updates.
-  
-  - predator_verbatim:
-  
-    Scientific name of predator reported in the original source of the diet record. 
-  
-  - predator_rank:
-  
-    Linnean rank of predator.
-  
-  - predator_taxon:
-  
-    Semicolon separated list of taxonomic ranks applicable to predator. 	
-  
-  - predator_age:
-  
-    Age of predator specimen.
-  
-  - predator_sex:
-  
-    Sex of predator specimen.
-  
-  - predator_count:
-  
-    Number of individual predators involved in diet record.
-  
-  - predator_mass:
-  
-    Mass (in grams) of predator.
-  
-  - predator_svl:
-  
-    Snout-to-vent length (generally, from snout tip to vent) of predator. All measurements in millimeters.
-  
-  - predator_tl:
-  
-    Total length (snout-to-vent length + tail length) of predator. All  measurements in millimeters.
-  
-  - predator_voucher:
-  
-    A museum voucher number or random alphanumeric code applied for each predator specimen. Random alphanumeric codes were not given for new literature diet records reported herein.
-  
-  - prey:
-  
-    Scientific name of predator. Some names have been updated to match recent taxonomic updates.
-  
-  - prey_verbatim:
-  
-    Scientific name of prey reported in the original source of the diet record. 
-  
-  - prey_rank:
-
-    Linnean rank of prey.
-  
-  - prey_taxon:
-
-    Semicolon separated list of taxonomic ranks applicable to prey.
-  
-  - prey_age:
-
-    Age of individual prey item.
-  
-  - prey_sex:
-
-    Sex of individual prey item.
-  
-  - prey_count:
-  
-    Number of prey items involved in diet record.
-  
-  - prey_mass:
-
-    Mass (in grams) of prey item.
-  
-  - prey_tl:
-
-    Total length of prey item. All measurements in millimeters.
-  
-  - prey_ingested:
-
-    Direction prey item was ingested (e.g., head first, tail first, bent double).
-  
-  - prey_voucher:
-  
-    A museum voucher number or random alphanumeric code applied for each prey item. Random alphanumeric codes were not given for new literature diet records reported herein.
-  
-  - locality_adm0_name:
-  
-    Country where diet record occurred.
-  
-  - locality_adm1_name:
-
-    State/provincial level region where diet record occurred.
-  
-  - locality_adm2_name:
-
-    County/municipality level region where diet record occurred.
-  
-  - locality_misc:
-
-    Additional information relevant to location of diet record.
-  
-  - locality_longitude:
-
-    Longitude (in decimal form) of diet record.
-  
-  - locality_latitude:
-
-    Latitude (in decimal form) of diet record.
-  
-  - event_basis:
-
-    The basis for the diet record (e.g., direct observation, dissected stomach/gut contents, etc.)
-  
-  - event_setting:
-
-    Note stating whether the diet record was observed naturally or in a captive setting.
-  
-  - event_date:
-
-    The date when the diet record was presumed to have occurred (given in YYYY-MM-DD format). The collection date is given under this field for records derived from dissected stomach contents.
-  
-  - event_start:
-
-    The time when the diet record started (in 24-hour HH:MM format).
-  
-  - event_end:
-
-    The time when the diet record ended (in 24-hour HH:MM format).
-  
-  - event_outcome:
-
-    The outcome of the predation event in the diet record (in most cases, this is prey_eaten, but direct observations based on field encounters may have other outcomes such as predation_interrupted_by_observer)
-  
-  - event_habitat:
-
-    Habitat descriptor noting the setting of diet record (e.g., terrestrial, fossorial, arboreal, aquatic)
-  
-  - event_habitat_verbatim:
-
-    Verbatim description of habitat for diet record.
-  
-  - event_remark:
-
-    Any relevant notes of diet record that do not fall under other database fields.
-  
-  - reference:
-
-    The reference/citation of diet record. Novel diet records reported by us are recorded using the entry this study.
-  
-  - prey_traditional:
-
-    Dietary categorization of prey item under the traditional [T1] category scheme.
-  
-  - prey_phylo1:
-
-    Dietary categorization of prey item under order rank [T2] scheme.
-  
-  - prey_phylo2:
-
-    Dietary categorization of prey item under family rank [T3] scheme.
-  
-  - prey_functional1:
-
-    Dietary categorization of prey item under functional/ecological [E1] category scheme.
-  
-  - prey_functional2:
-
-    Dietary categorization of prey item under the habitat [E2] category scheme.
-  
-  - prey_type:
-
-    Dietary categorization of prey item under the Mass-Bulk Theory (MBT) prey type [E3] category scheme.
-  
-  - radiation:
-
-    Assigned elapid subgroup of each predator species for diet record.
-
-#### Database fields and elapid shorthands used in 'Elapid_full_taxon_list.csv' and 'Elapid_taxon_list_intree.csv':
+#### Database fields used in 'Elapid_full_taxon_list.csv' and 'Elapid_taxon_list_intree.csv':
 
   - "taxon": Scientific name (at species rank) of elapid taxon.
 	
-  - "geog_radiation": Assigned elapid subgroup of each elapid species. 
+  - "geog_radiation": Assigned elapid subgroup of each elapid species.
 
-  - 'afro-asian' = Afro-Asian Elapids (A)
+#### Elapid shorthands used in 'All_Elapids_squamatabase_JLL.csv', 'Elapid_full_taxon_list.csv', and 'Elapid_taxon_list_intree.csv':
 
-  - 'asian-corals' = Asian Coral Snakes (B)
+  - "afro-asian": Afro-Asian Elapids (A)
 
-  - 'australo_papuan' = Australo-Papuan hydrophiines (C)
+  - "asian-corals": Asian Coral Snakes (B)
 
-  - 'kraits' = Asian kraits (D)
+  - "australo_papuan": Australo-Papuan hydrophiines (C)
 
-  - 'nw-corals' = New World Coral Snakes (E)
+  - "kraits": Asian kraits (D)
 
-  - 'sea_snakes' = Sea Snakes (F)
+  - "nw-corals": New World Coral Snakes (E)
+
+  - "sea_snakes": Sea Snakes (F)
  
