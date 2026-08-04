@@ -14,7 +14,7 @@ path <- setwd(path)
 ## Prepare data
 setwd("/PATH/Datasets")
 tree <- read.tree("best_ultrametric_fulltree_ddBD_revision.tre")
-diet <- read.csv("All_Elapids_squamatabase_resubmission1.csv")
+diet <- read.csv("All_Elapids_squamatabase.csv")
 
 ## Subset Elapids from Title et al. (2024) tree
 span <- c("Calliophis_intestinalis", "Hydrophis_platurus")
