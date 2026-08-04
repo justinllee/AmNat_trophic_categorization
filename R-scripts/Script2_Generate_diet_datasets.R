@@ -11,7 +11,7 @@ path <- setwd(path)
 
 ## Prepare files
 setwd("/PATH/")
-Elapids <- read.csv("/PATH/Datasets/All_Elapids_squamatabase_resubmission1.csv")
+Elapids <- read.csv("/PATH/Datasets/All_Elapids_squamatabase.csv")
 tree <- read.tree("/PATH/Datasets/All_Elapids_tree_v2.tre") 
 
 ## Adjust prey/predator counts for missing data
