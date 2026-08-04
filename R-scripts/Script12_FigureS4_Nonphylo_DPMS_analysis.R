@@ -12,7 +12,7 @@ library(RColorBrewer)
 ## Prepare directories (use PATH folder from previous scripts)
 wd <- "/PATH/Nonphylo BHC"
 setwd("/PATH/Nonphylo BHC")
-Elapids <- read.csv("/PATH/Datasets/All_Elapids_squamatabase_resubmission1.csv")
+Elapids <- read.csv("/PATH/Datasets/All_Elapids_squamatabase.csv")
 taxalist <- read.csv("/PATH/Datasets/Elapid_full_taxon_list.csv")
 
 # NOTE: How you order the diet dataset matters!
