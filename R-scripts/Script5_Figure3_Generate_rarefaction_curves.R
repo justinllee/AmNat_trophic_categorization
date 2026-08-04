@@ -7,7 +7,7 @@ wd <- "/PATH/"
 setwd(wd)
 
 ## Prepare data
-data <- "/PATH/Datasets/All_Elapids_squamatabase_resubmission1.csv"
+data <- "/PATH/Datasets/All_Elapids_squamatabase.csv"
 data <- read.csv(data) # reads data in, but no radiations matched yet
 good <- c("predator", "prey", "prey_traditional", "prey_phylo1", "prey_phylo2",
           "prey_functional1", "prey_functional2", "prey_type", "radiation")
