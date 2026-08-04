@@ -11,8 +11,8 @@ wd <- "/PATH/"
 setwd(wd)
 
 ## Prepare data
-data <- "/PATH/Datasets/All_Elapids_squamatabase_resubmission1.csv"
-tree1 <- read.tree("multicellular animals_family.nwk")
+data <- "/PATH/Datasets/All_Elapids_squamatabase.csv"
+tree1 <- read.tree("multicellular_animals_family.nwk")
 
 ## Clean-up diet data
 sqbase <- read.csv(data)
