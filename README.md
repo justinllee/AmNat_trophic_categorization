@@ -52,10 +52,10 @@ Script to estimate diet tip rates of Elapids based on DPMS analyses in Figure 4 
 - **'Script07_FigureS1_(A)_Generate_category_T2_order.R':**
 Generate phylogenetic [T2] category scheme based on order-rank data from TimeTree of life and existing elapid diet data (Kumar et al. 2022). Used in Figure S1A.
 
-- **'Script8_FigureS1_(B)_Generate_category_T3_family.R':**
+- **'Script08_FigureS1_(B)_Generate_category_T3_family.R':**
 Generate phylogenetic [T3] category scheme based on family-rank data from TimeTree of life (Kumar et al. 2022) and existing elapid diet data. Used in Figure S1B.
 
-- **'Script9_FigureS2_(A)_Barplots_of_diet_states_phylo.R':**
+- **'Script09_FigureS2_(A)_Barplots_of_diet_states_phylo.R':**
 Visualize dietary niche states estimated from phylogenetic implementation of DPMS model (see Script03). Used in Figure S2A (in part).
 
 - **'Script10_FigureS2_(B)_Barplots_of_diet_states_nonphylo.R':**
