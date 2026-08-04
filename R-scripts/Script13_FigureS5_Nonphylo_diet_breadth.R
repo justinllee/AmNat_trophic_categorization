@@ -6,7 +6,7 @@ setwd("/PATH/Nonphylo BHC")
 setwd(wd)
 
 ## Prepare data
-Elapids <- read.csv("/PATH/Datasets/All_Elapids_squamatabase_resubmission1.csv")
+Elapids <- read.csv("/PATH/Datasets/All_Elapids_squamatabase.csv")
 taxalist <- read.csv("/PATH/Datasets/Elapid_full_taxon_list.csv")
 breadth <- read.csv('diet_breadth_nonphylo_summary.csv')
 colnames(breadth) <- c("radiation", "[T1]", "[T2]", "[T3]", "[E1]", "[E2]", "[E3]")
