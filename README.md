@@ -98,15 +98,13 @@ Running under: macOS Sequoia 15.7.7
 
 **Figure S2:** Barplots depicting elapid prey category proportions of inferred dietary niche states. Niche states were inferred under a phylogenetic (A) and non-phylogenetic (B) DPMS model for six prey categorization schemes. All color legends correspond to prey categories except categories T2–T3, which were too large to depict (gradients were used in their place and correspond to the same colors used in category T1). 
 
-**Figure S3:** Phylogeny of elapids with dietary states inferred under six category schemes. Each ring of shapes correspond to niche states inferred by the phylogenetic implementation of the Dirichlet process multinomial state model (DPMS) model under different categorizations (categories from inner-to-outer ring: T1, T2, T3, E1, E2, E3; see bottom right legend). Colors at each ring of tips indicate different dietary states inferred for 
-each category. Colors on tree branches indicate the six elapid subgroups grouped in this study (Pink = Afro-Asian elapids; Yellow = Asian coralsnakes; Orange = Australo-Papuan hydrophiines; Purple = kraits; Turquoise = New World coralsnakes; Green = sea snakes; see 
-bottom left legend). Refer to Figure S4 for results under the non-phylogenetic DPMS analysis.
+**Figure S3:** Phylogeny of elapids with dietary states inferred under six category schemes. Each ring of shapes corresponds to niche states inferred by the phylogenetic implementation of the Dirichlet process multinomial state model (DPMS) model under different categorizations (categories from inner-to-outer ring: T1, T2, T3, E1, E2, E3; see bottom right legend). Colors at each ring of tips indicate different dietary states inferred for each category. Colors on tree branches indicate the six elapid subgroups grouped in this study (Pink = Afro-Asian elapids; Yellow = Asian coralsnakes; Orange = Australo-Papuan hydrophiines; Purple = kraits; Turquoise = New World coralsnakes; Green = sea snakes; see bottom left legend). Refer to Figure S4 for results under the non-phylogenetic DPMS analysis.
 
 **Figure S4:** Phylogeny of Elapidae with dietary niche states inferred by the non-phylogenetic implementation of the DPMS model. Colors and shapes correspond with Figure S3.
 
-**Figure S5:** Box and whisker plots showing differences in log transformed dietary breadth amongst elapid radiations based on a non-phylogenetic Dirichlet-multinomial model. Points represent elapid species. Refer to Figure 3 for colors and letters.
+**Figure S5:** Box and whisker plots showing differences in log transformed dietary breadth amongst elapid radiations based on a non-phylogenetic Dirichlet-multinomial model. Points represent elapid species. Refer to Figure S3 for colors and letters.
 
-**Figure S6:** Rates of diet evolution amongst Elapidae based on diet tip rates of all six prey categorization schemes. Data used to generate tip rates were the raw diet breadth for each species.
+**Figure S6:** Rates of diet evolution amongst Elapidae based on diet tip rates of all six prey categorization schemes. Data used to generate tip rates were the raw diet breadth scores for each species.
 
 
 
